@@ -1,17 +1,17 @@
 # ESPHack
-To use the ESP Hack Cheat, create a new hack function and find an Active class and a new OnGUI function like that and that's it .... 
+To use the ESP Hack Cheat, create a new hack function and find an Active class and a new Awake function like that and that's it .... 
 
 ----------
 
 TO ESP HACK FREE
-------
+
 Code
 ------
 
-private void OnGUI () 
+private void Awake () 
 {
 
-global :: ESPHack.OnGUI ();
+global :: ESPHack.WHLoader ();
 
 global :: ESPHack.PlayerESP = true
 
